@@ -8,6 +8,11 @@ setup = function() {
     text("🍽", i, 370)
   }
 
-
+  var x = [ "🍊", "🥭", "🍌"]
+    fill(255, 0, 0);
+    text( x[0], 10, 100);
+    text( x[1], 10, 150);
+    text( x[2], 10, 200);
+    text("My top " + 3 + " favorite fruits", 10, 30 );
 };
 
